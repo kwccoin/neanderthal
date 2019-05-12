@@ -6,4 +6,4 @@
   :exclusions [[org.jcuda/jcuda-natives :classifier "apple-x86_64"]
                [org.jcuda/jcublas-natives :classifier "apple-x86_64"]]
   :jvm-opts ^:replace ["-Dclojure.compiler.direct-linking=true"
-                       #_"--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED"])
+                       "--add-opens=java.base/jdk.internal.ref=ALL-UNNAMED"])
